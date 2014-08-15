@@ -1,0 +1,51 @@
+
+-----------------------------------------------
+This documnet list the initial steps in cloning a git repo, adding changes to the local repo,
+commitng changes and pushing to it back
+-----------------------------------------------
+
+Note: This doc assumes you have github account already
+
+1. Create a ssh key. On your linux machine type in the following command 
+   
+    ssh-keygen -t rsa -C "your@email.com"
+
+   -- First, get your key from the file; the terminal will have told you where the key was stored; open the file, 
+   -- copy the key (be careful not to add any newlines or white-space). Open your GitHub account page, 
+   -- scroll to SSH Public Keys, and click “Add another public key.” Paste in your key and save it. 
+   -- You’re good to go! You can test your authentication by running this:
+
+      ssh git@github.com
+
+Note: If you have a ssh key already with you simply copy the key to your account on github
+
+2. Forking a repo and cloning it to your local machine
+
+   -- On github website search for a repo, On the righ side you have a option to fork the repo.
+   -- Go back to your account and you can see this repo being forked
+   -- In the right sidebar of your fork's repository page, click  to copy the clone URL for your fork. 
+   
+   -- On your local machine issue this command git clone <url you have copied>
+   -- This would create clone 
+
+3. Adding files, changes to the cloned copy
+
+   -- Let say you have adde a file into the cloned repo on your local machine or made changes to the code
+   -- In order to add these files/folders/changes, cd <to the repo> and then issue the command
+        
+          git add   --> This will add the files, but not commit
+
+   -- In order to commit the changes, issue the command
+     
+          git commit .
+          
+4. Push your changes to your forked repo (not the original repo)
+
+   -- Now that you have commited changes to the cloned repo on your local machine, you need to push these to the github
+      forked repo
+
+   -- to do this issue the following command
+      
+      git push   --> This will prompt you for you github usrname and password
+
+   -- You can see the changes made in your repo on local machine to be reflected on the your github forked repo   

@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<olivino xmlns:junos="http://xml.juniper.net/junos/11.4D0/junos">
+	<healthcheck-result cust="puma" jobid="20130911_161128_cmd06_vllb" query="healthcheck" search="routing" status="ok" value="vllb">
+		<rpc-reply xmlns:junos="http://xml.juniper.net/junos/11.4X27/junos">
+			<bgp-information xmlns="http://xml.juniper.net/junos/11.4X27/junos-routing">
+				<group-count>24</group-count>
+				<peer-count>28</peer-count>
+				<down-peer-count>7</down-peer-count>
+				<bgp-rib junos:style="brief">
+					<name>bgp.l3vpn.0</name>
+					<total-prefix-count>20151</total-prefix-count>
+					<received-prefix-count>20151</received-prefix-count>
+					<accepted-prefix-count>20151</accepted-prefix-count>
+					<active-prefix-count>20069</active-prefix-count>
+					<suppressed-prefix-count>0</suppressed-prefix-count>
+					<history-prefix-count>0</history-prefix-count>
+					<damped-prefix-count>0</damped-prefix-count>
+					<total-external-prefix-count>0</total-external-prefix-count>
+					<active-external-prefix-count>0</active-external-prefix-count>
+					<accepted-external-prefix-count>0</accepted-external-prefix-count>
+					<suppressed-external-prefix-count>0</suppressed-external-prefix-count>
+					<total-internal-prefix-count>20151</total-internal-prefix-count>
+					<active-internal-prefix-count>20069</active-internal-prefix-count>
+					<accepted-internal-prefix-count>20151</accepted-internal-prefix-count>
+					<suppressed-internal-prefix-count>0</suppressed-internal-prefix-count>
+					<pending-prefix-count>0</pending-prefix-count>
+					<bgp-rib-state>BGP restart is complete</bgp-rib-state>
+					<vpn-rib-state>VPN restart is complete</vpn-rib-state>
+				</bgp-rib>
+				<bgp-rib junos:style="brief">
+					<name>inet6.0</name>
+					<total-prefix-count>12</total-prefix-count>
+					<received-prefix-count>12</received-prefix-count>
+					<accepted-prefix-count>12</accepted-prefix-count>
+					<active-prefix-count>5</active-prefix-count>
+					<suppressed-prefix-count>0</suppressed-prefix-count>
+					<history-prefix-count>0</history-prefix-count>
+					<damped-prefix-count>0</damped-prefix-count>
+					<total-external-prefix-count>12</total-external-prefix-count>
+					<active-external-prefix-count>5</active-external-prefix-count>
+					<accepted-external-prefix-count>12</accepted-external-prefix-count>
+					<suppressed-external-prefix-count>0</suppressed-external-prefix-count>
+					<total-internal-prefix-count>0</total-internal-prefix-count>
+					<active-internal-prefix-count>0</active-internal-prefix-count>
+					<accepted-internal-prefix-count>0</accepted-internal-prefix-count>
+					<suppressed-internal-prefix-count>0</suppressed-internal-prefix-count>
+					<pending-prefix-count>0</pending-prefix-count>
+					<bgp-rib-state>BGP restart is complete</bgp-rib-state>
+				</bgp-rib>
+				<bgp-rib junos:style="brief">
+					<name>inet.0</name>
+					<total-prefix-count>21120</total-prefix-count>
+					<received-prefix-count>21120</received-prefix-count>
+					<accepted-prefix-count>20096</accepted-prefix-count>
+					<active-prefix-count>20087</active-prefix-count>
+					<suppressed-prefix-count>0</suppressed-prefix-count>
+					<history-prefix-count>0</history-prefix-count>
+					<damped-prefix-count>0</damped-prefix-count>
+					<total-external-prefix-count>21118</total-external-prefix-count>
+					<active-external-prefix-count>20086</active-external-prefix-count>
+					<accepted-external-prefix-count>20094</accepted-external-prefix-count>
+					<suppressed-external-prefix-count>0</suppressed-external-prefix-count>
+					<total-internal-prefix-count>2</total-internal-prefix-count>
+					<active-internal-prefix-count>1</active-internal-prefix-count>
+					<accepted-internal-prefix-count>2</accepted-internal-prefix-count>
+					<suppressed-internal-prefix-count>0</suppressed-internal-prefix-count>
+					<pending-prefix-count>0</pending-prefix-count>
+					<bgp-rib-state>BGP restart is complete</bgp-rib-state>
+				</bgp-rib>
+				<bgp-peer heading="Peer                     AS      InPkt     OutPkt    OutQ   Flaps Last Up/Dwn State|#Active/Received/Accepted/Damped..." junos:style="terse">
+					<peer-address>144.130.251.245</peer-address>
+					<peer-as>64515</peer-as>
+					<input-messages>0</input-messages>
+					<output-messages>7884</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="584017">6d 18:13:37</elapsed-time>
+					<peer-state>Active</peer-state>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>144.130.251.246</peer-address>
+					<peer-as>64515</peer-as>
+					<input-messages>6775</input-messages>
+					<output-messages>6633</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="583451">6d 18:04:11</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>bgp.l3vpn.0</name>
+						<active-prefix-count>48</active-prefix-count>
+						<received-prefix-count>48</received-prefix-count>
+						<accepted-prefix-count>48</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>bgp.l3vpn-inet6.0</name>
+						<active-prefix-count>21</active-prefix-count>
+						<received-prefix-count>21</received-prefix-count>
+						<accepted-prefix-count>21</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000015k.inet.0</name>
+						<active-prefix-count>12</active-prefix-count>
+						<received-prefix-count>12</received-prefix-count>
+						<accepted-prefix-count>12</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000016k.inet.0</name>
+						<active-prefix-count>11</active-prefix-count>
+						<received-prefix-count>11</received-prefix-count>
+						<accepted-prefix-count>11</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000017k.inet.0</name>
+						<active-prefix-count>11</active-prefix-count>
+						<received-prefix-count>11</received-prefix-count>
+						<accepted-prefix-count>11</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000018k.inet.0</name>
+						<active-prefix-count>11</active-prefix-count>
+						<received-prefix-count>11</received-prefix-count>
+						<accepted-prefix-count>11</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000019k.inet.0</name>
+						<active-prefix-count>11</active-prefix-count>
+						<received-prefix-count>11</received-prefix-count>
+						<accepted-prefix-count>11</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000020k.inet.0</name>
+						<active-prefix-count>11</active-prefix-count>
+						<received-prefix-count>11</received-prefix-count>
+						<accepted-prefix-count>11</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000021k.inet.0</name>
+						<active-prefix-count>10</active-prefix-count>
+						<received-prefix-count>10</received-prefix-count>
+						<accepted-prefix-count>10</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000022k.inet.0</name>
+						<active-prefix-count>9</active-prefix-count>
+						<received-prefix-count>9</received-prefix-count>
+						<accepted-prefix-count>9</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000023k.inet.0</name>
+						<active-prefix-count>10</active-prefix-count>
+						<received-prefix-count>10</received-prefix-count>
+						<accepted-prefix-count>10</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000024k.inet.0</name>
+						<active-prefix-count>10</active-prefix-count>
+						<received-prefix-count>10</received-prefix-count>
+						<accepted-prefix-count>10</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000060k.inet.0</name>
+						<active-prefix-count>9</active-prefix-count>
+						<received-prefix-count>9</received-prefix-count>
+						<accepted-prefix-count>9</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000061k.inet.0</name>
+						<active-prefix-count>9</active-prefix-count>
+						<received-prefix-count>9</received-prefix-count>
+						<accepted-prefix-count>9</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000063k.inet.0</name>
+						<active-prefix-count>9</active-prefix-count>
+						<received-prefix-count>9</received-prefix-count>
+						<accepted-prefix-count>9</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0611862k.inet.0</name>
+						<active-prefix-count>11</active-prefix-count>
+						<received-prefix-count>11</received-prefix-count>
+						<accepted-prefix-count>11</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0612862k.inet.0</name>
+						<active-prefix-count>9</active-prefix-count>
+						<received-prefix-count>9</received-prefix-count>
+						<accepted-prefix-count>9</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0613862k.inet.0</name>
+						<active-prefix-count>9</active-prefix-count>
+						<received-prefix-count>9</received-prefix-count>
+						<accepted-prefix-count>9</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n1012300k.inet.0</name>
+						<active-prefix-count>18</active-prefix-count>
+						<received-prefix-count>20</received-prefix-count>
+						<accepted-prefix-count>20</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000011k.inet.0</name>
+						<active-prefix-count>11</active-prefix-count>
+						<received-prefix-count>11</received-prefix-count>
+						<accepted-prefix-count>11</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000012k.inet.0</name>
+						<active-prefix-count>11</active-prefix-count>
+						<received-prefix-count>11</received-prefix-count>
+						<accepted-prefix-count>11</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000013k.inet.0</name>
+						<active-prefix-count>11</active-prefix-count>
+						<received-prefix-count>11</received-prefix-count>
+						<accepted-prefix-count>11</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000014k.inet.0</name>
+						<active-prefix-count>13</active-prefix-count>
+						<received-prefix-count>13</received-prefix-count>
+						<accepted-prefix-count>13</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n3038130k.inet.0</name>
+						<active-prefix-count>9</active-prefix-count>
+						<received-prefix-count>9</received-prefix-count>
+						<accepted-prefix-count>9</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000015k.inet6.0</name>
+						<active-prefix-count>3</active-prefix-count>
+						<received-prefix-count>3</received-prefix-count>
+						<accepted-prefix-count>3</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000016k.inet6.0</name>
+						<active-prefix-count>2</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000017k.inet6.0</name>
+						<active-prefix-count>2</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000018k.inet6.0</name>
+						<active-prefix-count>2</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000019k.inet6.0</name>
+						<active-prefix-count>2</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000020k.inet6.0</name>
+						<active-prefix-count>2</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000021k.inet6.0</name>
+						<active-prefix-count>2</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000023k.inet6.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000011k.inet6.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000012k.inet6.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000013k.inet6.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000014k.inet6.0</name>
+						<active-prefix-count>2</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>144.130.251.247</peer-address>
+					<peer-as>64515</peer-as>
+					<input-messages>6954</input-messages>
+					<output-messages>6632</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="583443">6d 18:04:03</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>bgp.l3vpn.0</name>
+						<active-prefix-count>10016</active-prefix-count>
+						<received-prefix-count>10053</received-prefix-count>
+						<accepted-prefix-count>10053</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>bgp.l3vpn-inet6.0</name>
+						<active-prefix-count>5</active-prefix-count>
+						<received-prefix-count>25</received-prefix-count>
+						<accepted-prefix-count>25</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000015k.inet.0</name>
+						<active-prefix-count>10001</active-prefix-count>
+						<received-prefix-count>10004</received-prefix-count>
+						<accepted-prefix-count>10004</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000016k.inet.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>3</received-prefix-count>
+						<accepted-prefix-count>3</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000017k.inet.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>3</received-prefix-count>
+						<accepted-prefix-count>3</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000018k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000019k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000020k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000021k.inet.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000022k.inet.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0611862k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n1012300k.inet.0</name>
+						<active-prefix-count>8</active-prefix-count>
+						<received-prefix-count>19</received-prefix-count>
+						<accepted-prefix-count>19</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000011k.inet.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>3</received-prefix-count>
+						<accepted-prefix-count>3</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000012k.inet.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>3</received-prefix-count>
+						<accepted-prefix-count>3</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000013k.inet.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>3</received-prefix-count>
+						<accepted-prefix-count>3</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000014k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>4</received-prefix-count>
+						<accepted-prefix-count>4</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000015k.inet6.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>4</received-prefix-count>
+						<accepted-prefix-count>4</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000016k.inet6.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>3</received-prefix-count>
+						<accepted-prefix-count>3</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000017k.inet6.0</name>
+						<active-prefix-count>2</active-prefix-count>
+						<received-prefix-count>4</received-prefix-count>
+						<accepted-prefix-count>4</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000018k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000019k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000020k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000021k.inet6.0</name>
+						<active-prefix-count>2</active-prefix-count>
+						<received-prefix-count>4</received-prefix-count>
+						<accepted-prefix-count>4</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000011k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000012k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000013k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000014k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>144.130.251.248</peer-address>
+					<peer-as>64515</peer-as>
+					<input-messages>7060</input-messages>
+					<output-messages>6634</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="583533">6d 18:05:33</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>bgp.l3vpn.0</name>
+						<active-prefix-count>10005</active-prefix-count>
+						<received-prefix-count>10050</received-prefix-count>
+						<accepted-prefix-count>10050</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>bgp.l3vpn-inet6.0</name>
+						<active-prefix-count>4</active-prefix-count>
+						<received-prefix-count>24</received-prefix-count>
+						<accepted-prefix-count>24</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000015k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>10004</received-prefix-count>
+						<accepted-prefix-count>10004</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000016k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>3</received-prefix-count>
+						<accepted-prefix-count>3</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000017k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>3</received-prefix-count>
+						<accepted-prefix-count>3</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000018k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000019k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000020k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000021k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000022k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0611862k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n1012300k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>19</received-prefix-count>
+						<accepted-prefix-count>19</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000011k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000012k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000013k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000014k.inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>4</received-prefix-count>
+						<accepted-prefix-count>4</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000015k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>4</received-prefix-count>
+						<accepted-prefix-count>4</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000016k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>3</received-prefix-count>
+						<accepted-prefix-count>3</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000017k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>3</received-prefix-count>
+						<accepted-prefix-count>3</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000018k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000019k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000020k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n0000021k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>3</received-prefix-count>
+						<accepted-prefix-count>3</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000011k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000012k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000013k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+					<bgp-rib junos:style="terse">
+						<name>n2000014k.inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>172.16.130.8</peer-address>
+					<peer-as>65530</peer-as>
+					<input-messages>15723</input-messages>
+					<output-messages>15791</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>2</flap-count>
+					<elapsed-time junos:seconds="438515">5d 1:48:35</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet.0</name>
+						<active-prefix-count>38</active-prefix-count>
+						<received-prefix-count>39</received-prefix-count>
+						<accepted-prefix-count>39</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>172.16.130.16</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>19451</input-messages>
+					<output-messages>21007</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="583536">6d 18:05:36</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>172.16.130.17</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>0</input-messages>
+					<output-messages>0</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="584017">6d 18:13:37</elapsed-time>
+					<peer-state>Active</peer-state>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>172.16.130.32</peer-address>
+					<peer-as>64515</peer-as>
+					<input-messages>3070</input-messages>
+					<output-messages>3106</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>5</flap-count>
+					<elapsed-time junos:seconds="12032">3:20:32</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>172.16.131.100</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>21219</input-messages>
+					<output-messages>21010</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="583541">6d 18:05:41</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet.0</name>
+						<active-prefix-count>10003</active-prefix-count>
+						<received-prefix-count>10515</received-prefix-count>
+						<accepted-prefix-count>10003</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>172.16.132.9</peer-address>
+					<peer-as>65530</peer-as>
+					<input-messages>20928</input-messages>
+					<output-messages>21007</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="583458">6d 18:04:18</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet.0</name>
+						<active-prefix-count>38</active-prefix-count>
+						<received-prefix-count>39</received-prefix-count>
+						<accepted-prefix-count>39</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>172.16.132.18</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>19450</input-messages>
+					<output-messages>21004</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="583453">6d 18:04:13</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>172.16.132.19</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>0</input-messages>
+					<output-messages>0</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="584017">6d 18:13:37</elapsed-time>
+					<peer-state>Active</peer-state>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>172.16.132.32</peer-address>
+					<peer-as>64515</peer-as>
+					<input-messages>433</input-messages>
+					<output-messages>440</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>4</flap-count>
+					<elapsed-time junos:seconds="12071">3:21:11</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>172.16.133.100</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>21092</input-messages>
+					<output-messages>21008</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="583458">6d 18:04:18</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet.0</name>
+						<active-prefix-count>10003</active-prefix-count>
+						<received-prefix-count>10515</received-prefix-count>
+						<accepted-prefix-count>10003</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>172.16.140.1</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>15539</input-messages>
+					<output-messages>15867</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>2</flap-count>
+					<elapsed-time junos:seconds="435545">5d 0:59:05</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet.0</name>
+						<active-prefix-count>2</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>172.16.140.33</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>20574</input-messages>
+					<output-messages>21008</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="583544">6d 18:05:44</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>172.16.140.129</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>20570</input-messages>
+					<output-messages>21004</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="583454">6d 18:04:14</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>172.16.140.161</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>20570</input-messages>
+					<output-messages>21004</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="583450">6d 18:04:10</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>2001:8003:1a:940:2::1</peer-address>
+					<peer-as>65530</peer-as>
+					<input-messages>48562</input-messages>
+					<output-messages>48085</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>2</flap-count>
+					<elapsed-time junos:seconds="438531">5d 1:48:51</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>2001:8003:1a:940:3:c3:0:fa01</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>58344</input-messages>
+					<output-messages>63836</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="583531">6d 18:05:31</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet6.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>2001:8003:1a:940:ae:100:ffff:1000</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>63754</input-messages>
+					<output-messages>63966</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="583531">6d 18:05:31</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>3</received-prefix-count>
+						<accepted-prefix-count>3</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>2001:8003:1a:944:ae:100:ffff:1000</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>0</input-messages>
+					<output-messages>3945</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="584017">6d 18:13:37</elapsed-time>
+					<peer-state>Active</peer-state>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>2001:8003:1a:946:ae:100:ffff:1000</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>0</input-messages>
+					<output-messages>3945</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="584017">6d 18:13:37</elapsed-time>
+					<peer-state>Active</peer-state>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>2001:8003:1b:941:2::2</peer-address>
+					<peer-as>65530</peer-as>
+					<input-messages>64592</input-messages>
+					<output-messages>63957</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="583448">6d 18:04:08</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet6.0</name>
+						<active-prefix-count>1</active-prefix-count>
+						<received-prefix-count>2</received-prefix-count>
+						<accepted-prefix-count>2</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>2001:8003:1b:941:3:c3:0:fa03</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>58333</input-messages>
+					<output-messages>63826</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="583436">6d 18:03:56</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet6.0</name>
+						<active-prefix-count>0</active-prefix-count>
+						<received-prefix-count>1</received-prefix-count>
+						<accepted-prefix-count>1</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>2001:8003:1b:941:ae:101:ffff:1000</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>63743</input-messages>
+					<output-messages>63957</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="583445">6d 18:04:05</elapsed-time>
+					<peer-state junos:format="Establ">Established</peer-state>
+					<bgp-rib junos:style="terse">
+						<name>inet6.0</name>
+						<active-prefix-count>3</active-prefix-count>
+						<received-prefix-count>3</received-prefix-count>
+						<accepted-prefix-count>3</accepted-prefix-count>
+						<suppressed-prefix-count>0</suppressed-prefix-count>
+					</bgp-rib>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>2001:8003:1b:945:ae:101:ffff:1000</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>0</input-messages>
+					<output-messages>3946</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="584017">6d 18:13:37</elapsed-time>
+					<peer-state>Active</peer-state>
+				</bgp-peer>
+				<bgp-peer junos:style="terse">
+					<peer-address>2001:8003:1b:947:ae:101:ffff:1000</peer-address>
+					<peer-as>65000</peer-as>
+					<input-messages>0</input-messages>
+					<output-messages>3946</output-messages>
+					<route-queue-count>0</route-queue-count>
+					<flap-count>0</flap-count>
+					<elapsed-time junos:seconds="584017">6d 18:13:37</elapsed-time>
+					<peer-state>Active</peer-state>
+				</bgp-peer>
+			</bgp-information>
+		</rpc-reply>
+	</healthcheck-result>
+</olivino>

@@ -33,11 +33,11 @@ Note: If you have a ssh key already with you simply copy the key to your account
    -- Let say you have adde a file into the cloned repo on your local machine or made changes to the code
    -- In order to add these files/folders/changes, cd <to the repo> and then issue the command
         
-          git add   --> This will add the files, but not commit
+          git add .   --> This will add the files, but not commit
 
    -- In order to commit the changes, issue the command
      
-          git commit .
+          git commit 
           
 4. Push your changes to your forked repo (not the original repo)
 
